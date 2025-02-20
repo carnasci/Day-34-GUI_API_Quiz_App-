@@ -1,4 +1,5 @@
 from tkinter import *
+from quiz_brain import QuizBrain
 
 THEME_COLOR = "#375362"
 
@@ -6,7 +7,9 @@ THEME_COLOR = "#375362"
 
 class QuizInterface:
 
-    def __init__(self):
+    def __init__(self, quiz_brain: QuizBrain):
+        #QuizBrain
+        self.quiz = quiz_brain
         #Windo
         self.window = Tk()
         self.window.title("Quizzler", )
@@ -32,5 +35,12 @@ class QuizInterface:
         false_image = PhotoImage(file="images/false.png")
         self.false_button = Button(image=false_image, highlightthickness=0, padx=20, pady=20)
         self.false_button.grid(row=2, column=1)
+        #Render the quiz question
+        self.get_next_question()
 
         self.window.mainloop()
+
+    def get_next_question(self):
+        """fetches next question from quizbrain and displays it onto the canvas"""
+        q_text = self.quiz.next_question()
+        self.canvas.itemconfig(self.question_text, text=q_text)
