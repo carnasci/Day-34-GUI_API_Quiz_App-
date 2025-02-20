@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52d732e4-1d84-447c-ac19-2adf126bdb0d" name="Changes" comment="Day 34 - Changed project from hardcoded quiz questions to use API generated questions">
+    <list default="true" id="52d732e4-1d84-447c-ac19-2adf126bdb0d" name="Changes" comment="Day 34 - learned to use html module unescape method to format html character codes and numbers to human-readable characters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quizzler_app/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/quiz_brain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizzler_app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizzler_app/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/quizzler_app/ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740070118612</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 34 - learned to use html module unescape method to format html character codes and numbers to human-readable characters">
+      <option name="closed" value="true" />
+      <created>1740071891964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740071891964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 34 - Project repo created" />
     <MESSAGE value="Day 34 - Changed project from hardcoded quiz questions to use API generated questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 34 - Changed project from hardcoded quiz questions to use API generated questions" />
+    <MESSAGE value="Day 34 - learned to use html module unescape method to format html character codes and numbers to human-readable characters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 34 - learned to use html module unescape method to format html character codes and numbers to human-readable characters" />
   </component>
 </project>
